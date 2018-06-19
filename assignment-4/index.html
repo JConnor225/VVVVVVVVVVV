@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"
+  <meta name="description" content="Pine Park Center Kids Kamp">
+  <meta name="author" content="James Sandefur">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Webpage</title>
+</head>
+<body>
+  <header>
+    <h1>Pine Park Center Kids Kamp</h1>
+    <h2>Summer Program for Kids Aged 3-15 Years</h2>
+    <p>The Pine Park Center "Kids Kamp" is a week-long summer camp offering a variety of programs in athletics, wilderness awareness, and arts and humanities. Kampers are exposed to a wide-range of indoor and outdoor activities, designed to strengthen group and individual dynamics, skills, and interests. Registration begins May 1.</p>
+    <h3>Programs:</h3>
+  </header>
+  <main>
+    <ul>
+      <li><b>Kommunity Kampfire Evening</b> -- "Kommunity Kampfires" encourage togetherness, group activities, and hands-on learning.</li>
+      <li><b>Kamping</b> --  Friday night "Kamping" trips teach basic survivor skills, and provide an opportunity to unplug and explore nature.</li>
+      <li><b>Katfish Swimming</b> --  The "Katfish" program offers lessons at our Center for three levels of swimmer, from beginner to advanced.</li>
+      <li><b>The Kids Kamp Kickers </b> -- A favorite among registrants, any Kamper may join a "Kids Kamp Kickers" soccer team.</li>
+      <li><b>Konquerors</b> -- For the adventurer and explorer in every kid, "Konquerors" participate in novelty activities like orienteering or horseback riding. Offerings depend on season and instructor availability. Ages 10+.</li>
+      <li><b>Krafts and Kultures</b> --  Kids Kamp brings in local talent to share their skills and knowledge with our bright young Kampers. Past instructors have included graffiti artist Avi and astronomer Dr. Jamal Warren.</li>
+    </ul>
+    <form action="http://www.example.com/register.php" method="get">
+      <!--COST-->
+      <fieldset>
+          <legend>Program Costs</legend>
+          <div id="COSTS">
+          <p><i>Choose one:</i></p>
+              <input type="radio" name="level" value="1 program" /> 1 Program  ($50)
+              <br />
+              <input type="radio" name="level" value="2 program" checked />  2 Programs ($100)
+              <br />
+              <input type="radio" name="level" value="3 program" /> 3 Programs ($150)
+              <br />
+              <input type="radio" name="level" value="4 program" /> 4 Programs ($175)
+              <br />
+              <input type="radio" name="level" value="5 program" /> 5 Programs ($200)
+              <br />
+              <input type="radio" name="level" value="komplete" /> Komplete Package: 6 Programs ($225)
+              <br />
+              <input type="radio" name="level" value="kickers" />  Kickers Soccer Program ONLY ($25)
+            </div>
+            </fieldset>
+            <br>
+  <!--JERSEYS-->
+  <fieldset>
+    <legend>Jerseys</legend>
+    <p><i>Kickers Registration includes one team jersey (100% polyester), in standard sizes:</i></p>
+    <input type="radio" name="level" value="1 program" /> 3T
+    <br />
+    <input type="radio" name="level" value="2 program" checked />  4T
+    <br />
+    <input type="radio" name="level" value="3 program" /> 5T
+    <br />
+    <input type="radio" name="level" value="4 program" />Youth XS (4-5)
+    <br />
+    <input type="radio" name="level" value="5 program" />Youth S (6-8)
+    <br />
+    <input type="radio" name="level" value="komplete" />Youth M (9-11)
+    <br />
+    <input type="radio" name="level" value="kickers" />Youth L (12-14)
+    <br />
+    <input type="radio" name="level" value="kickers" />Youth XL/Adult S (15)
+  </fieldset>
+<br />
+<!--SCHEDULE-->
+<fieldset>
+  <legend>Program Schedule</legend>
+<table>
+             <tr>
+                <th></th>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+             </tr>
+             <tr>
+                <th scope="row">Kampers</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>6:00pm-10:00am</td>
+             </tr>
+             <tr>
+                <th scope="row">Kampfires</th>
+                <td>6:00pm-8:00pm</td>
+                <td>6:00pm-8:00pm</td>
+                <td>6:00pm-8:00pm</td>
+                <td>6:00pm-8:00pm</td>
+                <td></td>
+            <tr>
+               <th scope="row">Katfishes</th>
+               <td>1:00pm-4:00pm</td>
+               <td>1:00pm-4:00pm</td>
+               <td>1:00pm-4:00pm</td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Kickers</th>
+              <td>10:00am-12:00pm</td>
+              <td></td>
+              <td>10:00am-12:00pm</td>
+              <td>2:00pm-4:00pm</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Konquerors</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>10:00am-4:00pm</td>
+            </tr>
+            <tr>
+              <th scope="row">Krafts</th>
+              <td></td>
+              <td>10:00am-12:00pm</td>
+              <td></td>
+              <td>10:00am-1:00pm</td>
+              <td></td>
+            </tr>
+          </table>
+        </fieldset>
+      </br>
+      <!--REGISTRATION-->
+      <fieldset>
+        <legend>Registration Information</legend>
+          <p>Name:
+            <input type="text" name="name" id="name-first" placeholder="First" />
+            <input type="text" name="name" id="name-middle" placeholder="MI" maxlength="3" size="3" />
+            <input type="text" name="name" id="name-last" placeholder="Last" />
+          </p>
+          <p>Date of Birth:
+             <input type="date" name="DOB" placeholder="mm/dd/yyyy" />
+         </p>
+         <p>E-mail:
+              <input type="email" name="email" placeholder="you@email.com" required/>
+          </p>
+           <input type="image" src="./images/registration-button.png" alt="register button image" width="150" height="30" />
+         </fieldset>
+       </form>
+       <!--FOOTER IMAGE-->
+       <img src="./images/kids-kamp-kamping.jpg" alt="Only 1 mile away, Pine Park offers great space to set-up tents close to facilities." title="Register Today!" width="500" height="333" />
