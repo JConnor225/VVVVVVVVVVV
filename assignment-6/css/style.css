@@ -20,3 +20,11 @@ body {background-color: white;
       position: absolute;
       bottom: 0;
       right: 0;}
+
+img #sticker {height: 100px;
+        position: absolute;
+        top: -20px;
+        right: -50px;
+        -ms-transform: rotate(25deg);
+         -webkit-transform: rotate(25deg);
+         transform: rotate(25deg);}
