@@ -1,0 +1,22 @@
+body {background-color: white;
+  font-family: sans-serif;
+  text-align: center;}
+  /* background square Colors */
+.square {width: 100%;
+    height: 50%;}
+#green {background-color: #37ef45;
+    position: absolute;
+    top: 0;
+    left: 0;}
+#pink {background-color: #e7228c;
+  position: absolute;
+  top: 0;
+  right: 0;}
+#yellow {background-color: #e8fb08;
+    position: absolute;
+    bottom: 0;
+    left: 0;}
+#blue {background-color: #3AB1FC;
+      position: absolute;
+      bottom: 0;
+      right: 0;}
